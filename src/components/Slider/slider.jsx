@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
-import slide1 from '../../assets/images/Pic1.jpg';
-import slide2 from '../../assets/images/Pic2.jpg';
-import slide3 from '../../assets/images/Pic3.jpg';
+import slide1 from '@/assets/images/Pic1.jpg';
+import slide2 from '@/assets/images/Pic2.jpg';
+import slide3 from '@/assets/images/Pic3.jpg';
 // import overlayslide from '../../assets/images/img_62b342e93a6b3e0aaad173c0png.webp';
 import './styles.css';
 // import EmailWaitlist from '../EmailWaitlist/EmailWaitlist';

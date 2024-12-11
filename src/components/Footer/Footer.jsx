@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from '../../assets/images/logo/belu_logo.png'
-import instalogo from '../../assets/images/instagram.png'
-import facebookLogo from '../../assets/images/facebook.png'
-import linkedinlogo from '../../assets/images/linkedin.png'
-import youtubelogo from '../../assets/images/youtube.png'
+import logo from '@/assets/images/logo/belu_logo.png'
+import instalogo from '@/assets/images/instagram.png'
+import facebookLogo from '@/assets/images/facebook.png'
+import linkedinlogo from '@/assets/images/linkedin.png'
+import youtubelogo from '@/assets/images/youtube.png'
 import { Link } from 'react-router-dom';
 
 function Footer() {

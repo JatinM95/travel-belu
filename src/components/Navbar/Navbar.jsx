@@ -1,6 +1,5 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
-// import logo from '../../assets/images/Frame_1116605564.png'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom';
 
