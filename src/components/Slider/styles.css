@@ -1,0 +1,147 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  /* // transition: background-color 5000s ease-in-out 0s; */
+}
+
+.first-slide-text {
+    font-size: 2rem;
+}
+
+.overlay {
+    color: #fff;
+    position: absolute;
+    z-index: 12;
+    top: 80%;
+    left: 33.33%;
+    width: 33.33%;
+    text-align: center;
+    padding: 0.5rem;
+    border: solid 1px black;
+}
+
+/* .first-slide-button{
+    border-radius: 30px;
+} */
+
+.first-slide-div {
+    width: 50%;
+    padding: 0.5rem;
+    margin: 3rem auto 0 auto;
+}
+
+.overlayimg {
+    bottom: -50px;
+}
+
+/* .slide-input{
+    outline: none;
+    border: none;
+} */
+
+.carousel-caption {
+    top: 40px;
+    bottom: auto;
+}
+
+/* style={{top:80, bottom:'auto'}} */
+
+@media only screen and (max-width: 1024px) {
+    .first-slide-text {
+        font-size: 3rem;
+    }
+
+    /* .first-slide-button{
+        border-radius:30px;
+    } */
+    .first-slide-div {
+        width: 58%;
+        padding: 0.4rem;
+    }
+
+    .overlay {
+        color: #fff;
+        position: absolute;
+        z-index: 12;
+        top: 32%;
+        left: 22%;
+        width: 56%;
+        text-align: center;
+        padding: 0.4rem;
+        border: solid 1px black;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .first-slide-text {
+        font-size: 2.5rem;
+    }
+
+    .first-slide-div {
+        width: 69%;
+        padding: 0.3rem;
+        margin: 1.5rem auto 0 auto;
+    }
+
+    .overlayimg {
+        bottom: -30px;
+    }
+
+    .carousel-caption {
+        top: 40px;
+        bottom: auto;
+    }
+
+    /* .overlay {
+        color: #fff;
+        position: absolute;
+        z-index: 12;
+        top: 5%;
+        left: 13%;
+        width: 74%;
+        text-align: center;
+        padding: 0.1rem;
+        border: solid 1px black;
+    } */
+}
+
+@media only screen and (max-width: 445px) {
+    .first-slide-text {
+        font-size: 1.2rem;
+    }
+
+    .first-slide-div {
+        width: 100%;
+        padding: 0.1rem;
+        margin: 1rem auto 0 auto;
+    }
+
+    .overlayimg {
+        bottom: -10px;
+    }
+
+    .carousel-caption {
+        top: 20px;
+        bottom: auto;
+        /* color: lightgrey; */
+    }
+
+    .overlay {
+        color: #fff;
+        position: absolute;
+        z-index: 12;
+        top: 28%;
+        left: 13%;
+        width: 74%;
+        text-align: center;
+        padding: 0.1rem;
+        border: solid 1px black;
+    }
+}
